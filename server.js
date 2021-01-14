@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 // Load express
 const express = require('express');
-const exphbs = require('express-handlebars');
+const exphbs  = require('express-handlebars');
 
 const app = express();
 
@@ -23,10 +23,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Set static directory reference path
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); 
 
 // Handlebars middleware
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 // Start routers
