@@ -12,6 +12,6 @@
 
 * Heroku
   * Live app - https://eatdaburgerjoyson.herokuapp.com/
-    * Now it seems to be working ok after having changed to `JawsDB MySQL`. _it was constantly crashing and unavailable when using `ClearDB MySQL` and `pg`_ -- see [the details](README-heroku.md)
+   
 * GitHub
   * Repository - https://github.com/enochj316/EatDaBurger
