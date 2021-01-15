@@ -19,7 +19,7 @@
   ### Demo
 
 * Clicking on `Devour It!` button will move the burger to the right side.
-    ![Demo of Main page](public/assets/image/demo1.png)
+    ![Demo Home Page](https://github.com/enochj316/EatDaBurger/blob/main/public/assets/image/Demo1.png)
 * Enter a burger name in the text box and press `Add Your Burger` to add the burger to be devoured. 
     ![Demo Image home](public/assets/image/demo3.png)
 * All the burgers have been devoured. They can now be removed by clicking on the `Remove` buttons.
