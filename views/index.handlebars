@@ -9,14 +9,14 @@
       <div class="col" id="left-col">
         <div class="text-right ml-auto mr-5">
           {{#each burgers}}
-            {{#unless devoured}}
-              <div class="mb-1">
-                {{burger_name}}
-                <button class="btn btn-sm btn-outline-danger devour" burgerId="{{id}}">
-                  Devour It!
-                </button>
-              </div>
-            {{/unless}}
+          {{#unless devoured}}
+          <div class="mb-1">
+            {{burger_name}}
+            <button class="btn btn-sm btn-outline-danger devour" burgerId="{{id}}">
+              Devour It!
+            </button>
+          </div>
+          {{/unless}}
           {{/each}}
         </div>
       </div>
@@ -25,14 +25,14 @@
       <div class="col" id="right-col">
         <div class="text-left mr-auto ml-5">
           {{#each burgers}}
-            {{#if devoured}}
-              <div class="mb-1">
-                {{burger_name}}
-                <button class="btn btn-sm btn-outline-dark remove" burgerId="{{id}}">
-                  Remove
-                </button>
-              </div>
-            {{/if}}
+          {{#if devoured}}
+          <div class="mb-1">
+            {{burger_name}}
+            <button class="btn btn-sm btn-outline-dark remove" burgerId="{{id}}">
+              Remove
+            </button>
+          </div>
+          {{/if}}
           {{/each}}
         </div>
       </div>
@@ -40,7 +40,7 @@
     </div>
 
     {{!-- Add a burger --}}
-    <p class="lead">Enter a burger name you want to eat</p>
+    <p class="lead">Enter a burger you want to DEVOUR</p>
     <form id="add-burger">
       <div class="form-group mx-auto" style="width: 35%">
         <textarea type="text" class="form-control form-control-md" name="bname" id="burger"></textarea>

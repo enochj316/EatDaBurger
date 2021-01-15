@@ -15,3 +15,14 @@
    
 * GitHub
   * Repository - https://github.com/enochj316/EatDaBurger
+
+  ### Demo
+* Although this is one page small app, hope the following snapshots give some ideas
+
+* Clicking on `Devour It!` button will move the burger to the right side.
+    ![Demo Image home](public/assets/image/demo-1.png)
+* Enter a burger name in the text box and press `Add Your Burger` to add the burger to be devoured. 
+    ![Demo Image home](public/assets/image/demo-2.png)
+    ![Demo Image home](public/assets/image/demo-3.png)
+* All the burgers have been devoured. They can now be removed by clicking on the `Remove` buttons.
+    ![Demo Image home](public/assets/image/demo-4.png)
